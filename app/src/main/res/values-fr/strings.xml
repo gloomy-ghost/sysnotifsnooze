@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Masquer \"en arrière-plan\" Notification</string>
+    <string name="app_name_2">Masquer la notification %s</string>
+    <string name="service_name" translatable="false">@string/app_name</string>
+    <string name="permission_request_msg">Pour que cette application supprime la %s notification agaçante, vous devez autoriser cette application à accéder à vos notifications. \n\nAppuyez sur d'accord et, dans l'écran suivant, activez l'autorisation pour cette application, puis appuyez sur "Autoriser".</string>
+    <string name="permission_request_title">Permission d'accéder aux notifications<s/tring>
+    <string name="Allow">Permettre</string>
+    <string name="OK">D'accord</string>
+    <string name="granted">Accordé</string>
+    <string name="not_granted">Pas accordé</string>
+    <string name="string_hide_icon_alert_dialog_title">Masquer l'icône de l'application du lanceur?</string>
+    <string name="string_hide_icon_alert_dialog_msg">Ce commutateur cachera l'icône de l'application au lanceur. \n\nMise en garde! \nVous devez désinstaller et installer cette application à partir du Play Store pour l'ouvrir.</string>
+    <string name="string_old_way_alert_dialog_msg">Ce paramètre changera l'application pour utiliser l'ancienne méthode. Il va désactiver l'option pour sélectionner des applications.</string>
+    <string name="string_new_way_alert_dialog_msg">Redémarrez votre téléphone pour que cette option prenne effet. La sélection d'applications sera activée</string>
+    <string name="string_old_way_alert_dialog_title">Êtes-vous sûr?</string>
+    <string name="string_new_way_alert_dialog_title">Redémarrer!</string>
+    <string name="string_yes">Oui</string>
+    <string name="string_no">Non</string>
+    <string name="string_title_select_apps">Sélectionner des applications</string>
+    <string name="string_title_select_apps_screen">Choisissez pour quelle application la notification %s doit être masquée</string>
+    <string name="string_all_apps">Toutes les applications</string>
+    <string name="string_settings_small_donation">Un Petit Don</string>
+    <string name="string_settings_large_donation">Un Grand Don</string>
+    <string name="string_settings_follow_me">Suis moi</string>
+    <string name="string_settings_notification_access_permission">Autorisation d'accès aux notifications</string>
+    <string name="string_settings_permission">Autorisation</string>
+    <string name="string_settings_support_me_with">Soutiens moi avec â€¦</string>
+    <string name="string_settings_running_in_the_background">Applications en cours d'exécution en arrière-plan</string>
+    <string name="string_settings_source_code">Code source</string>
+    <string name="string_settings_twitter">Twitter</string>
+    <string name="string_settings_hide_app_icon_from_launcher">Masquer l'icône de l'application dans le lanceur</string>
+    <string name="string_settings_settings">Réglages</string>
+    <string name="string_settings_select_apps">Appuyez sur pour sélectionner les applications.</string>
+    <string name="string_settings_use_old_hiding_method">Utiliser l'ancienne méthode de dissimulation</string>
+    <string name="string_settings_old_way_summary">Essayez cette option si vous utilisez un périphérique OnePlus dans lequel l'Ambient Display scintille ou si vous rencontrez un autre problème de masquage de la notification.</string>
+
+    <string name="shared_pref_key_package_name_all" translatable="false">packageNamesAll</string>
+    <string name="shared_pref_key_package_name_current" translatable="false">packageNamesCurrent</string>
+    <string name="shared_pref_key_package_name_selected" translatable="false">packageNamesSelected</string>
+    <string name="shared_pref_name" translatable="false">myComPref</string>
+    <string name="shared_pref_key_granted" translatable="false">granted?</string>
+    <string name="shared_pref_key_isOldWay" translatable="false">isOldWay</string>
+    <string name="shared_pref_key_isIconHidden" translatable="false">isIconHidden</string>
+    <string name="string_all_key" translatable="false">all.all.all.all.all</string>
+
+    <string name="string_filter_intent" translatable="false">com.iboalali.sysnotifsnooze.NOTIFICATION_LISTENER_SERVICE_INTENT</string>
+    <string name="shared_pref_key_version_code" translatable="false">version_code</string>
+
+    <!-- To all contributors, Please do not translate these two. I will use the translation used by AOSP.
+            If there are any questions or change requests about these translations please contact me -->
+    <string name="string_app_name_replace_using_battery">en utilisant la batterie</string>
+    <string name="string_app_name_replace_running_in_the_background">courir en arrière-plan</string>
+    <!-- *********************************************************************************************** -->
+
+</resources>
