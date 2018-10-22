@@ -1,38 +1,38 @@
 <resources>
-    <string name="app_name">Hide \"running in the background\" Notification</string>
-    <string name="app_name_2">Hide %s Notification</string>
+    <string name="app_name">Masquer \"en arrière-plan\" Notification</string>
+    <string name="app_name_2">Masquer la notification %s</string>
     <string name="service_name" translatable="false">@string/app_name</string>
-    <string name="permission_request_msg">For this app to remove the annoying %s Notification, you have to allow this app to access your notifications.\n\nPress OK, and in the next screen, switch the permission for this app ON and then press \"Allow\"</string>
-    <string name="permission_request_title">Permission to Access Notifications</string>
-    <string name="Allow">Allow</string>
-    <string name="OK">OK</string>
-    <string name="granted">Granted</string>
-    <string name="not_granted">Not Granted</string>
-    <string name="string_hide_icon_alert_dialog_title">Hide the app icon from launcher?</string>
-    <string name="string_hide_icon_alert_dialog_msg">This switch will hide the app icon from launcher.\n\nCaution!\nYou have to uninstall and install this app from the Play Store again to open it</string>
-    <string name="string_old_way_alert_dialog_msg">This setting will switch the app to use the old method. It will disable the option to select apps</string>
-    <string name="string_new_way_alert_dialog_msg">Restart your phone for this option to take effect. Selecting apps will be enabled</string>
-    <string name="string_old_way_alert_dialog_title">Are You Sure?</string>
-    <string name="string_new_way_alert_dialog_title">Restart!</string>
-    <string name="string_yes">Yes</string>
-    <string name="string_no">No</string>
-    <string name="string_title_select_apps">Select Apps</string>
-    <string name="string_title_select_apps_screen">Choose for which app the %s notification should be hidden</string>
-    <string name="string_all_apps">All apps</string>
-    <string name="string_settings_small_donation">a Small Donation</string>
-    <string name="string_settings_large_donation">a Large Donation</string>
-    <string name="string_settings_follow_me">Follow me</string>
-    <string name="string_settings_notification_access_permission">Notification Access Permission</string>
-    <string name="string_settings_permission">Permission</string>
-    <string name="string_settings_support_me_with">Support me withâ€¦</string>
-    <string name="string_settings_running_in_the_background">Apps currently running in the Background</string>
-    <string name="string_settings_source_code">Source Code</string>
+    <string name="permission_request_msg">Pour que cette application supprime la %s notification agaçante, vous devez autoriser cette application à accéder à vos notifications. \n\nAppuyez sur d'accord et, dans l'écran suivant, activez l'autorisation pour cette application, puis appuyez sur "Autoriser".</string>
+    <string name="permission_request_title">Permission d'accéder aux notifications<s/tring>
+    <string name="Allow">Permettre</string>
+    <string name="OK">D'accord</string>
+    <string name="granted">Accordé</string>
+    <string name="not_granted">Pas accordé</string>
+    <string name="string_hide_icon_alert_dialog_title">Masquer l'icône de l'application du lanceur?</string>
+    <string name="string_hide_icon_alert_dialog_msg">Ce commutateur cachera l'icône de l'application au lanceur. \n\nMise en garde! \nVous devez désinstaller et installer cette application à partir du Play Store pour l'ouvrir.</string>
+    <string name="string_old_way_alert_dialog_msg">Ce paramètre changera l'application pour utiliser l'ancienne méthode. Il va désactiver l'option pour sélectionner des applications.</string>
+    <string name="string_new_way_alert_dialog_msg">Redémarrez votre téléphone pour que cette option prenne effet. La sélection d'applications sera activée</string>
+    <string name="string_old_way_alert_dialog_title">Êtes-vous sûr?</string>
+    <string name="string_new_way_alert_dialog_title">Redémarrer!</string>
+    <string name="string_yes">Oui</string>
+    <string name="string_no">Non</string>
+    <string name="string_title_select_apps">Sélectionner des applications</string>
+    <string name="string_title_select_apps_screen">Choisissez pour quelle application la notification %s doit être masquée</string>
+    <string name="string_all_apps">Toutes les applications</string>
+    <string name="string_settings_small_donation">Un Petit Don</string>
+    <string name="string_settings_large_donation">Un Grand Don</string>
+    <string name="string_settings_follow_me">Suis moi</string>
+    <string name="string_settings_notification_access_permission">Autorisation d'accès aux notifications</string>
+    <string name="string_settings_permission">Autorisation</string>
+    <string name="string_settings_support_me_with">Soutiens moi avec â€¦</string>
+    <string name="string_settings_running_in_the_background">Applications en cours d'exécution en arrière-plan</string>
+    <string name="string_settings_source_code">Code source</string>
     <string name="string_settings_twitter">Twitter</string>
-    <string name="string_settings_hide_app_icon_from_launcher">Hide app icon from launcher</string>
-    <string name="string_settings_settings">Settings</string>
-    <string name="string_settings_select_apps">Press to select apps</string>
-    <string name="string_settings_use_old_hiding_method">Use old hiding method</string>
-    <string name="string_settings_old_way_summary">Try this option if you have an OnePlus device where the Ambient Display flickers, or any other problem with hiding the notification</string>
+    <string name="string_settings_hide_app_icon_from_launcher">Masquer l'icône de l'application dans le lanceur</string>
+    <string name="string_settings_settings">Réglages</string>
+    <string name="string_settings_select_apps">Appuyez sur pour sélectionner les applications.</string>
+    <string name="string_settings_use_old_hiding_method">Utiliser l'ancienne méthode de dissimulation</string>
+    <string name="string_settings_old_way_summary">Essayez cette option si vous utilisez un périphérique OnePlus dans lequel l'Ambient Display scintille ou si vous rencontrez un autre problème de masquage de la notification.</string>
 
     <string name="shared_pref_key_package_name_all" translatable="false">packageNamesAll</string>
     <string name="shared_pref_key_package_name_current" translatable="false">packageNamesCurrent</string>
@@ -48,8 +48,8 @@
 
     <!-- To all contributors, Please do not translate these two. I will use the translation used by AOSP.
             If there are any questions or change requests about these translations please contact me -->
-    <string name="string_app_name_replace_using_battery">using battery</string>
-    <string name="string_app_name_replace_running_in_the_background">running in the background</string>
+    <string name="string_app_name_replace_using_battery">en utilisant la batterie</string>
+    <string name="string_app_name_replace_running_in_the_background">courir en arrière-plan</string>
     <!-- *********************************************************************************************** -->
 
 </resources>
